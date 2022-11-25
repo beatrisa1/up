@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"><![CDATA[
+
+    16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+
+
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="360dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="16dp"
+        android:text="Мопс (нидерл. mops) — порода декоративных собак.
+
+Мопсы были привезены из Китая в Европу в XVI веке и были популярны в Западной Европе и Нидерландах. В Соединённом Королевстве в XIX веке королева Виктория развила страсть к мопсам, которую она передала другим членам королевской семьи.
+
+Мопсы известны тем, что являются общительными и нежными собаками-компаньонами. Американский клуб собаководства описывает личность породы как «уравновешенный и обаятельный».
+        "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="359dp"
+        android:layout_height="218dp"
+        android:layout_marginTop="8dp"
+        android:text="Следует внимательно следить за кормлением мопса, иначе он подвергнется сильному ожирению и это скажется на его сроке жизни.Нужно следить, чтобы собака не переутомлялась от беготни, не находилась в душном помещении и не перегревалась в жаркую погоду.
+
+Как собака с плотной и развитой костной и мышечной системой мопс крайне чувствителен к недостатку движений и содержанию кальция в рационе, а также к правильному соотношению в нём кальция и фосфора. Недостаток движений приводит к нарушению кровообращения из-за большой мышечной массы, атрофия которой приведёт к быстрой гибели собаки.
+        tools:layout_editor_absoluteX="
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="177dp"
+        android:layout_height="247dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/img_3" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="186dp"
+        android:layout_height="247dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/img_4" />16dp"
+    tools:layout_editor_absoluteY="424dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

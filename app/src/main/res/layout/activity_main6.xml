@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="corgi"
+    tools:context=".MainActivity8">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="367dp"
+        android:layout_height="239dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="9dp"
+        android:text="Вельш-ко́рги — породы пастушьих собак, происходящие из Уэльса. К уэльским корги относятся:
+
+* Вельш-корги-кардиган — порода, появившаяся на изолированной территории Кардиганшира. Согласно наиболее популярной версии, предки вельш-корги-кардиганов были завезены кельтами при освоении территории Британских островов в конце бронзового века. Первое упоминание породы в письменных источниках датируется X веком.
+* Вельш-корги-пемброк — порода, выведенная в Пембрукшире, предположительно, из собак фламандского происхождения и ведущая свою историю с XIII века"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="359dp"
+        android:layout_height="282dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="8dp"
+        android:text="Корги — преданные, трепетно любят семью своего хозяина. Они лояльно относятся ко всем людям и другим животным, легко уживаются с кошками. Очень тепло относятся к детям, особенно маленьким, следят за ними и оберегают. Спокойно переносят жизнь в городе. К климату приспосабливаются без особого труда, но из-за очень густого подшёрстка лучше чувствуют себя в холодную погоду, чем в жару.Вельш-корги склонны к перееданию, поэтому для слабовольного хозяина эта порода противопоказана. Нужно иметь в себе силы противостоять обаянию и хитроумию очаровательнейших попрошаек. Иначе собака запросто может превратиться в малоподвижное перекормленное существо.
+Это очень весёлая и подвижная собака."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="346dp"
+        android:layout_height="144dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/img_17" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

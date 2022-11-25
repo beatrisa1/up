@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+    android:title="Дневная"
+    android:id="@+id/day"/>
+<item
+    android:title="Ночная"
+    android:id="@+id/night"/>
+    <item
+        android:title="О программе"
+        android:id="@+id/aboutProgram"/>
+</menu>
+

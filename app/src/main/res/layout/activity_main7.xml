@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity9">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="254dp"
+        android:layout_height="185dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView13"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/img_19" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="351dp"
+        android:layout_height="530dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="26dp"
+        android:text="Доберма́н — порода короткошёрстных служебных собак, выведенная в городе Апольда (Тюрингия, Германия) в конце XIX века Карлом Фридрихом Луисом Доберманом, названа в честь своего создателя.Доберман — это крупная собака мускулистого, но стройного телосложения, производящая впечатление собранного, динамичного, активного животного. В судейской выставочной оценке важную роль играет гармоничность сложения животного и чёткость линий силуэтаДоберманы отличаются активным, энергичным характером, склонны к проявлению агрессии. Обладают выраженным охранным инстинктом, как территориальным, так и направленным на охрану человека. При этом в семье, где живёт эта собака, доберманы доброжелательны и не агрессивны к домашним, включая детей. При правильной социализации эти собаки отличаются преданностью и послушанием по отношению ко всем членам семьи.
+
+По отношению к другим видам животных доберманы не агрессивны и подходят для совместного содержания как с кошками, так и с другими питомцами. К представителям своего вида, с которыми они проживают на одной территории, эти собаки также не агрессивны.
+
+Агрессия, которую часто отмечают в описании этой породы, направлена именно на людей, причём на посторонних.
+
+В целом доберманы склонны очень сильно подстраиваться под владельца и транслировать в своём поведении поведение и настроение хозяев."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

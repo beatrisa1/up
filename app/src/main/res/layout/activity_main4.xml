@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="386dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="35dp"
+        android:text="Америка́нский бу́лли (англ. American Bully) — недавно созданная в США порода собак-компаньонов.Особенностью породы является то, что собаки в ней могут иметь несколько типов, различающихся ростом. Можно сказать, что это одновременно мелкая и крупная порода, которая была разделена на четыре категории; Карманные, Стандартные, Классические и XL."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="352dp"
+        android:layout_height="373dp"
+        android:text="Внешность обманчива – это, пожалуй, главный девиз американского булли. Мощный торс с могучей мускулатурой, широко расставленные лапы и приплюснутая морда с бульдожьей хваткой – все это наводит на мысли, что перед вами настоящая машина для убийства. И только приветливый взгляд выдает в булли их нежную натуру.
+
+Тот, кто хоть раз пообщается с ними, поймет, что в этом сильном и грозном теле скрыта добрая и любящая душа. Американский булли обожает детей, готов терпеть все их выходки и играть сутки напролет. Да и вся семья для него – это те, о ком нужно заботиться и кого необходимо любить. Ласковый, дружелюбный и добродушный – таков этот собачий атлет. Вот разве что других животных он недолюбливает, ведь все внимание и тепло хозяина должно принадлежать исключительно ему.
+
+ В целом же американский булли – это идеальная собака для дома: своим грозным видом он способен отпугивать воров и хулиганом, при этом являясь лучшим другом и компаньоном для всей семьи."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="406dp"
+        android:layout_height="198dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/img_10" />
+</androidx.constraintlayout.widget.ConstraintLayout>
